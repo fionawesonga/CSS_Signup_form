@@ -7,6 +7,10 @@
     border-radius: 8px;
     /* border: solid 1px #580b9a; */
 }
+.signup_paragraph{
+    font-weight: 100;
+    font-size: xx-large;
+}
 
 
 body {
@@ -243,3 +247,14 @@ h4 {
     top: 40px;
     right: 8px;
 } */
+ #firsteye{
+position: absolute;
+top:437px ;
+right: 420px;
+ }
+ #secondeye{
+    position: absolute;
+    top:513px ;
+    right: 420px;
+
+ }
