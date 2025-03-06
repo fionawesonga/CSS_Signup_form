@@ -1,0 +1,245 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    /* background-color: white; */
+    margin: auto;
+    border-radius: 8px;
+    /* border: solid 1px #580b9a; */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: white; */
+    background-color: #f3e9ff;
+
+}
+
+.signup_form {
+    display: flex;
+    justify-content: center;
+    border-left: solid 1px black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 45%;
+    padding: 40px;
+    /* background-color: #f3e9ff; */
+    margin: auto;
+    color: rgb(77, 74, 74);
+    height: 650px;
+    margin-top: 80px;
+}
+
+.signup_form h1 {
+    margin: 0;
+    color: #333;
+}
+
+.signup_form p {
+    color: #666;
+    font-size: 14px;
+}
+
+.image_board {
+    border: 0 0 0 3px solid purple;
+    font-size: 60px;
+    width: 45%;
+    background-color: #f3e9ff;
+    text-align: center;
+    padding: 50px;
+    height: 610px;
+
+
+}
+
+.signup_illustration {
+    color: #6a0dad;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.left_image {
+    width: 150%;
+    margin-top: 20px
+}
+
+.signup_form input {
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.signup_form label {
+    float: left;
+}
+
+.signup_form button {
+    width: 105%;
+    padding: 12px;
+    background-color: rgb(160, 81, 178);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #580b9a;
+}
+
+.signup_form a {
+    color: #6a0dad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup_form a:hover {
+    text-decoration: underline;
+}
+
+.fullname {
+    display: block;
+    /* display: flex; */
+    margin-bottom: 1%;
+    gap: 9%;
+    color: rgb(77, 74, 74);
+}
+
+#firstname {
+    width: 210px;
+}
+
+#lastname {
+    width: 215px;
+    color: rgb(87, 85, 85);
+}
+
+#fullname input {
+    padding: 15px;
+    width: 10%;
+    gap: 20px;
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+
+
+}
+.fa-eye{
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+
+}
+
+
+
+.hr-lines {
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+    color: gray;
+}
+
+.hr-lines:before {
+    content: " ";
+    height: 2px;
+    width: 45%;
+    background: grey;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.hr-lines:after {
+    content: " ";
+    height: 2px;
+    width: 45%;
+    background: gray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    gap: 7%;
+}
+
+#svg {
+    x: 0px;
+    y: 0px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 100px;
+    padding: 6px 30px;
+    border: solid 1px;
+    border-radius: 4px;
+    color: white;
+    background-color: white;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.fa-apple {
+    font-size: 30px;
+    margin-bottom: 100px;
+    width: 30px;
+    height: 30px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.fa-facebook-f {
+    font-size: 30px;
+    color: #2179BD;
+    margin-bottom: 100px;
+    width: 30px;
+    height: 30px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+/* .password{
+    display: flex;
+} */
+.name {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+/* .password svg{
+    position:absolute;
+    top: 40px;
+    right: 8px;
+} */
