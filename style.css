@@ -2,12 +2,11 @@
     display: flex;
     justify-content: center;
     width: 65%;
-    /* background-color: white; */
     margin: auto;
     border-radius: 8px;
-    /* border: solid 1px #580b9a; */
 }
-.signup_paragraph{
+
+.signup_paragraph {
     font-weight: 100;
     font-size: xx-large;
 }
@@ -15,7 +14,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    /* background-color: white; */
     background-color: #f3e9ff;
 
 }
@@ -28,7 +26,6 @@ body {
     padding-right: 20px;
     width: 45%;
     padding: 40px;
-    /* background-color: #f3e9ff; */
     margin: auto;
     color: rgb(77, 74, 74);
     height: 650px;
@@ -59,7 +56,7 @@ body {
 
 .signup_illustration {
     color: #6a0dad;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .left_image {
@@ -120,7 +117,6 @@ button:hover {
 
 .fullname {
     display: block;
-    /* display: flex; */
     margin-bottom: 1%;
     gap: 9%;
     color: rgb(77, 74, 74);
@@ -147,14 +143,6 @@ h4 {
 
 
 }
-.fa-eye{
-    position: absolute;
-    bottom: 3%;
-    right: 1%;
-
-}
-
-
 
 .hr-lines {
     position: relative;
@@ -232,9 +220,7 @@ h4 {
     background-color: white;
     cursor: pointer;
 }
-/* .password{
-    display: flex;
-} */
+
 .name {
     display: flex;
     justify-content: center;
@@ -242,19 +228,15 @@ h4 {
     text-align: center;
 }
 
-/* .password svg{
-    position:absolute;
-    top: 40px;
-    right: 8px;
-} */
- #firsteye{
-position: absolute;
-top:437px ;
-right: 420px;
- }
- #secondeye{
+#firsteye {
     position: absolute;
-    top:513px ;
+    top: 437px;
+    right: 420px;
+}
+
+#secondeye {
+    position: absolute;
+    top: 513px;
     right: 420px;
 
- }
+}
